@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5port - Спорт за 5 минут</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">5port</div>
+        <section class="navig">
+            <nav>
+                <div class="burger-menu" onclick="toggleMenu()">☰</div>
+                <ul class="nav-links">
+                    <li><a href="#">workouts</a></li> 
+                    <li><a href="#">tips</a></li>
+                    <li><a href="#">challenges</a></li>
+                    <li><a href="#">tracker</a></li>
+                    <li><a href="#">no gym</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+            <div class="account-buttons">
+                <button class="signIn" onclick="logButtonClick('Sign in')">Sign in</button>
+                <button class="register" onclick="logButtonClick('Register')">Register</button>
+            </div>
+        </section>
+    </header>
+    
+    <main>
+        <img class="bgpic" src="images\граф лого.svg">
+        <section class="main-content">
+            <h1>5port</h1>
+            <h3>Спорт за 5 минут</h3>
+            <input type="email" placeholder="you@example.com">
+            <button onclick="logButtonClick('Submit')">Submit</button>
+        </section>
+        
+        <section class="opisanije">
+            <p>Добро пожаловать на "Спорт за 5 минут"! Не хватает времени на спорт? Помощь в пути! Короткие, но эффективные тренировки, полезные советы и мини-челленджи помогут тебе оставаться в форме без сложных программ и дорогих залов.</p>
+        
+            <div class="blobs">
+
+            </div>
+        </section>
+    </main>
+  
+    <footer class="footer">
+        <section>
+            <div>
+                <h4>Разделы</h4>
+                <ul>
+                    <li><a href="#">5 minutes workouts</a></li>
+                    <li><a href="#">express tips</a></li>
+                    <li><a href="#">mini challenges</a></li>
+                    <li><a href="#">success tracker</a></li>
+                    <li><a href="#">sports at home</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Другая информация</h4>
+                <ul>
+                    <li><a href="tel:+1234568910">+1 234 568 910</a></li>
+                    <li><a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">Instagram: @yourprofile</a></li>
+                    <li><a href="https://www.tiktok.com/@yourprofile" target="_blank" rel="noopener noreferrer">TikTok: @yourprofile</a></li>
+                    <li><a href="mailto:ourmail@gmail.com">ourmail@gmail.com</a></li>
+                    <li><a href="reviews.html">Отзывы</a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+</body>
+<script src="js/script.js" defer></script>
+</html>
